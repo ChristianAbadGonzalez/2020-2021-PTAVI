@@ -1,0 +1,81 @@
+[
+  [
+    "root-layout",
+    {
+      "width": "248",
+      "height": "300",
+      "background-color": "blue"
+    }
+  ],
+  [
+    "region",
+    {
+      "id": "a",
+      "top": "20",
+      "bottom": "",
+      "left": "64",
+      "right": ""
+    }
+  ],
+  [
+    "region",
+    {
+      "id": "b",
+      "top": "120",
+      "bottom": "",
+      "left": "20",
+      "right": ""
+    }
+  ],
+  [
+    "region",
+    {
+      "id": "text_area",
+      "top": "100",
+      "bottom": "",
+      "left": "20",
+      "right": ""
+    }
+  ],
+  [
+    "img",
+    {
+      "src": "hello.jpg",
+      "region": "a",
+      "begin": "2s",
+      "dur": "36s"
+    }
+  ],
+  [
+    "img",
+    {
+      "src": "earthrise.jpg",
+      "region": "b",
+      "begin": "12s",
+      "dur": ""
+    }
+  ],
+  [
+    "audio",
+    {
+      "src": "hello.wav",
+      "begin": "1s",
+      "dur": ""
+    }
+  ],
+  [
+    "textstream",
+    {
+      "src": "letra.rt",
+      "region": "text_area"
+    }
+  ],
+  [
+    "audio",
+    {
+      "src": "cancion.ogg",
+      "begin": "4s",
+      "dur": ""
+    }
+  ]
+]

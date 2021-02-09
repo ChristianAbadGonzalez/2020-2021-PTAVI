@@ -1,0 +1,313 @@
+20210113191313 Finishing.
+20210113191348 Starting...
+20210113191351 Starting...
+20210113191351 Sent to 127.0.0.1:6666: INVITE sip:Christian SIP/2.0 Content-Type: application/sdp Content-Length: 62  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP 
+20210113191351 Received from 127.0.0.1:6666: SIP/2.0 100 Trying Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 180 Ringing Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 200 OK Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP   
+20210113191351 Sent to 127.0.0.1:6666: ACK sip:Christian SIP/2.0 
+20210113191357 Received from 127.0.0.1:39422: INVITE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP    
+20210113191357 Sent to 127.0.0.1:39422: SIP/2.0 100 Trying 
+20210113191357 Sent to 127.0.0.1:39422: SIP/2.0 180 Ringing 
+20210113191357 Sent to 127.0.0.1:39422: SIP/2.0 200 OK Content-Type: application/sdp Content-Length: 62  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP 
+20210113191357 Received from 127.0.0.1:41246: ACK sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666    
+20210113191551 Starting...
+20210113191551 Sent to 127.0.0.1:6666: INVITE sip:Christian SIP/2.0 Content-Type: application/sdp Content-Length: 62  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP 
+20210113191551 Received from 127.0.0.1:6666: SIP/2.0 100 Trying Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 180 Ringing Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 200 OK Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP   
+20210113191551 Sent to 127.0.0.1:6666: ACK sip:Christian SIP/2.0 
+20210113191556 Finishing.
+20210113191557 Received from 127.0.0.1:49541: INVITE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP    
+20210113191557 Sent to 127.0.0.1:49541: SIP/2.0 100 Trying 
+20210113191557 Sent to 127.0.0.1:49541: SIP/2.0 180 Ringing 
+20210113191557 Sent to 127.0.0.1:49541: SIP/2.0 200 OK Content-Type: application/sdp Content-Length: 62  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP 
+20210113191557 Received from 127.0.0.1:50910: ACK sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666    
+20210113192844 Finishing.
+20210113192848 Starting...
+20210113192851 Starting...
+20210113192851 Sent to 127.0.0.1:6666: INVITE sip:Christian SIP/2.0 Content-Type: application/sdp Content-Length: 62  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP 
+20210113192852 Received from 127.0.0.1:6666: SIP/2.0 100 Trying Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 180 Ringing Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 200 OK Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP   
+20210113192852 Sent to 127.0.0.1:6666: ACK sip:Christian SIP/2.0 
+20210113192856 Finishing.
+20210116120620 Starting...
+20210116120708 Starting...
+20210116120708 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 
+20210116120708 Received from 127.0.0.1:6666: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="f76328c0ddcbd817e9340da548b234a5" 
+20210116120708 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 Authorization: Digest response="5f91c150de603d4876dfd093202ace8db2dd19a0317cfb0a0a72534aa37e5b3b9eee04ec1e08d9a70ddac170364078735447e4a1e7662c17b16c914dc3da5729" 
+20210116120708 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210116120708 Finishing.
+20210116120733 Received from 127.0.0.1:44487: INVITE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP    
+20210116120733 Sent to 127.0.0.1:44487: SIP/2.0 100 Trying 
+20210116120733 Sent to 127.0.0.1:44487: SIP/2.0 180 Ringing 
+20210116120733 Sent to 127.0.0.1:44487: SIP/2.0 200 OK Content-Type: application/sdp Content-Length: 62  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP 
+20210116120733 Received from 127.0.0.1:43903: ACK sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666    
+20210116120852 Finishing.
+20210116120855 Starting...
+20210116120858 Received from 127.0.0.1:37062: INVITE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP    
+20210116120858 Sent to 127.0.0.1:37062: SIP/2.0 100 Trying 
+20210116120858 Sent to 127.0.0.1:37062: SIP/2.0 180 Ringing 
+20210116120858 Sent to 127.0.0.1:37062: SIP/2.0 200 OK Content-Type: application/sdp Content-Length: 62  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP 
+20210116120858 Received from 127.0.0.1:48106: ACK sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666    
+20210116120938 Finishing.
+20210116120942 Starting...
+20210116120945 Received from 127.0.0.1:42904: INVITE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP    
+20210116120945 Sent to 127.0.0.1:42904: SIP/2.0 100 Trying 
+20210116120945 Sent to 127.0.0.1:42904: SIP/2.0 180 Ringing 
+20210116120945 Sent to 127.0.0.1:42904: SIP/2.0 200 OK Content-Type: application/sdp Content-Length: 62  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP 
+20210116120945 Received from 127.0.0.1:45382: ACK sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666    
+20210116121046 Finishing.
+20210116121051 Starting...
+20210116121053 Received from 127.0.0.1:40175: INVITE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP    
+20210116121053 Sent to 127.0.0.1:40175: SIP/2.0 100 Trying 
+20210116121053 Sent to 127.0.0.1:40175: SIP/2.0 180 Ringing 
+20210116121053 Sent to 127.0.0.1:40175: SIP/2.0 200 OK Content-Type: application/sdp Content-Length: 62  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP 
+20210116121053 Received from 127.0.0.1:39805: ACK sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666    
+20210116123721 Received from 127.0.0.1:55967: INVITE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP    
+20210116123721 Sent to 127.0.0.1:55967: SIP/2.0 100 Trying 
+20210116123721 Sent to 127.0.0.1:55967: SIP/2.0 180 Ringing 
+20210116123721 Sent to 127.0.0.1:55967: SIP/2.0 200 OK Content-Type: application/sdp Content-Length: 62  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP 
+20210116123721 Received from 127.0.0.1:46172: ACK sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666    
+20210116123818 Received from 127.0.0.1:56018: INVITE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP    
+20210116123818 Sent to 127.0.0.1:56018: SIP/2.0 100 Trying 
+20210116123818 Sent to 127.0.0.1:56018: SIP/2.0 180 Ringing 
+20210116123818 Sent to 127.0.0.1:56018: SIP/2.0 200 OK Content-Type: application/sdp Content-Length: 62  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP 
+20210116123818 Received from 127.0.0.1:42507: ACK sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666    
+20210116123955 Finishing.
+20210116124000 Starting...
+20210116124045 Received from 127.0.0.1:34689: MESSAGE sip:Teodoro SIP/2.0 Content-Type: text/plain Content-Length: 5  Hola     
+20210116124045 Sent to 127.0.0.1:34689: SIP/2.0 405 Method Not Allowed 
+20210116124254 Finishing.
+20210116124256 Starting...
+20210116124300 Received from 127.0.0.1:51124: MESSAGE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: text/plain Content-Length: 5  Hola     
+20210116124300 Sent to 127.0.0.1:51124: SIP/2.0 405 Method Not Allowed 
+20210116124517 Finishing.
+20210116124520 Starting...
+20210116124524 Received from 127.0.0.1:57469: MESSAGE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: text/plain Content-Length: 5  Hola     
+20210116124928 Finishing.
+20210116124930 Starting...
+20210116124933 Received from 127.0.0.1:43796: MESSAGE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: text/plain Content-Length: 5  Hola     
+20210116133518 Finishing.
+20210116133537 Starting...
+20210116133644 Starting...
+20210116133644 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 
+20210116133644 Received from 127.0.0.1:6666: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="f76328c0ddcbd817e9340da548b234a5" 
+20210116133644 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 Authorization: Digest response="5f91c150de603d4876dfd093202ace8db2dd19a0317cfb0a0a72534aa37e5b3b9eee04ec1e08d9a70ddac170364078735447e4a1e7662c17b16c914dc3da5729" 
+20210116133644 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210116133644 Finishing.
+20210116133757 Starting...
+20210116133757 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 0 
+20210116133757 Received from 127.0.0.1:6666: SIP/2.0 404 User Not Found 
+20210116133757 Finishing.
+20210116133807 Starting...
+20210116133807 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 
+20210116133807 Received from 127.0.0.1:6666: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="f76328c0ddcbd817e9340da548b234a5" 
+20210116133807 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 Authorization: Digest response="5f91c150de603d4876dfd093202ace8db2dd19a0317cfb0a0a72534aa37e5b3b9eee04ec1e08d9a70ddac170364078735447e4a1e7662c17b16c914dc3da5729" 
+20210116133807 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210116133807 Finishing.
+20210116133948 Starting...
+20210116133948 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 0 
+20210116133948 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210116133948 Finishing.
+20210116134020 Starting...
+20210116134020 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 
+20210116134020 Received from 127.0.0.1:6666: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="f76328c0ddcbd817e9340da548b234a5" 
+20210116134020 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 Authorization: Digest response="5f91c150de603d4876dfd093202ace8db2dd19a0317cfb0a0a72534aa37e5b3b9eee04ec1e08d9a70ddac170364078735447e4a1e7662c17b16c914dc3da5729" 
+20210116134020 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210116134020 Finishing.
+20210116140654 Finishing.
+20210116140701 Starting...
+20210116140719 Starting...
+20210116140720 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 
+20210116140720 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210116140720 Finishing.
+20210116140729 Starting...
+20210116140729 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 0 
+20210116140729 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210116140729 Finishing.
+20210116140804 Starting...
+20210116140804 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 
+20210116140804 Received from 127.0.0.1:6666: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="f76328c0ddcbd817e9340da548b234a5" 
+20210116140804 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 Authorization: Digest response="5f91c150de603d4876dfd093202ace8db2dd19a0317cfb0a0a72534aa37e5b3b9eee04ec1e08d9a70ddac170364078735447e4a1e7662c17b16c914dc3da5729" 
+20210116140804 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210116140804 Finishing.
+20210116141128 Starting...
+20210116141128 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 0 
+20210116141128 Received from 127.0.0.1:6666: SIP/2.0 404 User Not Found 
+20210116141128 Finishing.
+20210116141201 Starting...
+20210116141201 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 
+20210116141201 Received from 127.0.0.1:6666: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="f76328c0ddcbd817e9340da548b234a5" 
+20210116141201 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 Authorization: Digest response="5f91c150de603d4876dfd093202ace8db2dd19a0317cfb0a0a72534aa37e5b3b9eee04ec1e08d9a70ddac170364078735447e4a1e7662c17b16c914dc3da5729" 
+20210116141201 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210116141201 Finishing.
+20210116141450 Starting...
+20210116141450 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 0 
+20210116141450 Received from 127.0.0.1:6666: SIP/2.0 404 User Not Found 
+20210116141450 Finishing.
+20210116141514 Starting...
+20210116141514 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 
+20210116141514 Received from 127.0.0.1:6666: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="f76328c0ddcbd817e9340da548b234a5" 
+20210116141514 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 Authorization: Digest response="5f91c150de603d4876dfd093202ace8db2dd19a0317cfb0a0a72534aa37e5b3b9eee04ec1e08d9a70ddac170364078735447e4a1e7662c17b16c914dc3da5729" 
+20210116141514 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210116141514 Finishing.
+20210116141810 Finishing.
+20210116141811 Starting...
+20210116141826 Starting...
+20210116141826 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 0 
+20210116141826 Received from 127.0.0.1:6666: SIP/2.0 404 User Not Found 
+20210116141826 Finishing.
+20210116141846 Starting...
+20210116141846 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 
+20210116141846 Received from 127.0.0.1:6666: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="f76328c0ddcbd817e9340da548b234a5" 
+20210116141846 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 Authorization: Digest response="5f91c150de603d4876dfd093202ace8db2dd19a0317cfb0a0a72534aa37e5b3b9eee04ec1e08d9a70ddac170364078735447e4a1e7662c17b16c914dc3da5729" 
+20210116141846 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210116141846 Finishing.
+20210116142358 Starting...
+20210116142358 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 
+20210116142358 Received from 127.0.0.1:6666: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="f76328c0ddcbd817e9340da548b234a5" 
+20210116142358 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 Authorization: Digest response="5f91c150de603d4876dfd093202ace8db2dd19a0317cfb0a0a72534aa37e5b3b9eee04ec1e08d9a70ddac170364078735447e4a1e7662c17b16c914dc3da5729" 
+20210116142358 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210116142358 Finishing.
+20210130120405 Starting...
+20210130120405 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600
+20210130120405 Received from 127.0.0.1:6666: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="f76328c0ddcbd817e9340da548b234a5" 
+20210130120405 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 Authorization: Digest response="5f91c150de603d4876dfd093202ace8db2dd19a0317cfb0a0a72534aa37e5b3b9eee04ec1e08d9a70ddac170364078735447e4a1e7662c17b16c914dc3da5729"
+20210130120405 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210130120405 Finishing.
+20210130120551 Starting...
+20210130120551 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600
+20210130120551 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210130120551 Finishing.
+20210130120633 Starting...
+20210130120633 Sent to 127.0.0.1:6666: INVITE sip:Christian SIP/2.0 Content-Type: application/sdp Content-Length: 60  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP
+20210130120633 Received from 127.0.0.1:6666: SIP/2.0 404 User Not Found 
+20210130120633 Finishing.
+20210130120646 Starting...
+20210130120646 Sent to 127.0.0.1:6666: INVITE sip:Christian SIP/2.0 Content-Type: application/sdp Content-Length: 60  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP
+20210130120646 Received from 127.0.0.1:6666: 
+20210130120646 Finishing.
+20210130120802 Starting...
+20210130120835 Starting...
+20210130120835 Sent to 127.0.0.1:6666: INVITE sip:Christian SIP/2.0 Content-Type: application/sdp Content-Length: 60  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP
+20210130120835 Received from 127.0.0.1:6666: SIP/2.0 100 Trying Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 180 Ringing Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 200 OK Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP   
+20210130120835 Sent to 127.0.0.1:6666: ACK sip:Christian SIP/2.0
+20210130120840 Finishing.
+20210130120841 Received from 127.0.0.1:55986: INVITE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 62  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP   
+20210130120841 Sent to 127.0.0.1:55986: SIP/2.0 100 Trying 
+20210130120841 Sent to 127.0.0.1:55986: SIP/2.0 180 Ringing 
+20210130120841 Sent to 127.0.0.1:55986: SIP/2.0 200 OK Content-Type: application/sdp Content-Length: 62  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP 
+20210130120841 Received from 127.0.0.1:52857: ACK sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666  
+20210130120906 Starting...
+20210130120906 Sent to 127.0.0.1:6666: BYE sip:Christian SIP/2.0
+20210130120906 Received from 127.0.0.1:6666: 
+20210130120906 Finishing.
+20210130121601 Finishing.
+20210130121621 Starting...
+20210130121622 Sent to 127.0.0.1:6666: INVITE sip:Christian SIP/2.0 Content-Type: application/sdp Content-Length: 60  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP
+20210130121622 Received from 127.0.0.1:6666: 
+20210130121622 Finishing.
+20210130121734 Starting...
+20210130121734 Sent to 127.0.0.1:6666: INVITE sip:Christian SIP/2.0 Content-Type: application/sdp Content-Length: 60  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP
+20210130121734 Received from 127.0.0.1:6666: 
+20210130121734 Finishing.
+20210130121804 Starting...
+20210130121804 Sent to 127.0.0.1:6666: BYE sip:Christian SIP/2.0
+20210130121804 Received from 127.0.0.1:6666: 
+20210130121804 Finishing.
+20210130121832 Starting...
+20210130121839 Starting...
+20210130121839 Sent to 127.0.0.1:6666: BYE sip:Christian SIP/2.0
+20210130121839 Received from 127.0.0.1:6666: SIP/2.0 404 User Not Found 
+20210130121839 Finishing.
+20210130121849 Starting...
+20210130121849 Sent to 127.0.0.1:6666: INVITE sip:Christian SIP/2.0 Content-Type: application/sdp Content-Length: 60  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP
+20210130121849 Received from 127.0.0.1:6666: SIP/2.0 100 Trying Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 180 Ringing Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 200 OK Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP  
+20210130121849 Sent to 127.0.0.1:6666: ACK sip:Christian SIP/2.0
+20210130121853 Finishing.
+20210130121856 Starting...
+20210130121856 Sent to 127.0.0.1:6666: BYE sip:Christian SIP/2.0
+20210130121856 Received from 127.0.0.1:6666: SIP/2.0 200 OK Via: SIP/2.0/UDP 127.0.0.1:6666   
+20210130121856 Finishing.
+20210130121928 Received from 127.0.0.1:45622: INVITE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 62  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP  
+20210130121928 Sent to 127.0.0.1:45622: SIP/2.0 100 Trying 
+20210130121928 Sent to 127.0.0.1:45622: SIP/2.0 180 Ringing 
+20210130121928 Sent to 127.0.0.1:45622: SIP/2.0 200 OK Content-Type: application/sdp Content-Length: 62  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP 
+20210130121928 Received from 127.0.0.1:55243: ACK sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666  
+20210130121935 Starting...
+20210130121935 Sent to 127.0.0.1:6666: INVITE sip:Christian SIP/2.0 Content-Type: application/sdp Content-Length: 60  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP
+20210130121935 Received from 127.0.0.1:6666: SIP/2.0 100 Trying Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 180 Ringing Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 200 OK Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP  
+20210130121935 Sent to 127.0.0.1:6666: ACK sip:Christian SIP/2.0
+20210130121939 Finishing.
+20210130121947 Starting...
+20210130121947 Sent to 127.0.0.1:6666: BYE sip:Christian SIP/2.0
+20210130121947 Received from 127.0.0.1:6666: 
+20210130121947 Finishing.
+20210130122810 Starting...
+20210130122810 Sent to 127.0.0.1:6666: BYE sip:Christian SIP/2.0
+20210130122810 Received from 127.0.0.1:6666: SIP/2.0 404 User Not Found 
+20210130122810 Finishing.
+20210130122816 Starting...
+20210130122816 Sent to 127.0.0.1:6666: INVITE sip:Christian SIP/2.0 Content-Type: application/sdp Content-Length: 60  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP
+20210130122816 Received from 127.0.0.1:6666: SIP/2.0 100 Trying Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 180 Ringing Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 200 OK Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP  
+20210130122816 Sent to 127.0.0.1:6666: ACK sip:Christian SIP/2.0
+20210130122821 Finishing.
+20210130122822 Received from 127.0.0.1:33815: INVITE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 62  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP  
+20210130122822 Sent to 127.0.0.1:33815: SIP/2.0 100 Trying 
+20210130122822 Sent to 127.0.0.1:33815: SIP/2.0 180 Ringing 
+20210130122822 Sent to 127.0.0.1:33815: SIP/2.0 200 OK Content-Type: application/sdp Content-Length: 62  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP 
+20210130122822 Received from 127.0.0.1:42240: ACK sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666  
+20210130122842 Starting...
+20210130122842 Sent to 127.0.0.1:6666: BYE sip:Christian SIP/2.0
+20210130122842 Received from 127.0.0.1:6666: 
+20210130122842 Finishing.
+20210130123507 Starting...
+20210130123507 Sent to 127.0.0.1:6666: INVITE sip:Christian SIP/2.0 Content-Type: application/sdp Content-Length: 60  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP
+20210130123507 Received from 127.0.0.1:6666: SIP/2.0 100 Trying Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 180 Ringing Via: SIP/2.0/UDP 127.0.0.1:6666 SIP/2.0 200 OK Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 64  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP  
+20210130123507 Sent to 127.0.0.1:6666: ACK sip:Christian SIP/2.0
+20210130123512 Finishing.
+20210130123513 Received from 127.0.0.1:48143: INVITE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: application/sdp Content-Length: 62  v=0 o=Christian 127.0.0.1 s=mysession t=0 m=audio 5060 RTP  
+20210130123513 Sent to 127.0.0.1:48143: SIP/2.0 100 Trying 
+20210130123513 Sent to 127.0.0.1:48143: SIP/2.0 180 Ringing 
+20210130123513 Sent to 127.0.0.1:48143: SIP/2.0 200 OK Content-Type: application/sdp Content-Length: 62  v=0 o=Teodoro 127.0.0.1 s=mysession t=0 m=audio 5061 RTP 
+20210130123513 Received from 127.0.0.1:49823: ACK sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666  
+20210130123521 Starting...
+20210130123521 Sent to 127.0.0.1:6666: BYE sip:Christian SIP/2.0
+20210130123521 Received from 127.0.0.1:6666: SIP/2.0 200 OK Via: SIP/2.0/UDP 127.0.0.1:6666   
+20210130123521 Finishing.
+20210130123705 Starting...
+20210130123705 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 0
+20210130123705 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210130123705 Finishing.
+20210130123821 Starting...
+20210130123821 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600
+20210130123821 Received from 127.0.0.1:6666: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="f76328c0ddcbd817e9340da548b234a5" 
+20210130123821 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 Authorization: Digest response="5f91c150de603d4876dfd093202ace8db2dd19a0317cfb0a0a72534aa37e5b3b9eee04ec1e08d9a70ddac170364078735447e4a1e7662c17b16c914dc3da5729"
+20210130123821 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210130123821 Finishing.
+20210130124438 Received from 127.0.0.1:48998: MESSAGE sip:Teodoro SIP/2.0 Via: SIP/2.0/UDP 127.0.0.1:6666 Content-Type: text/plain Content-Length: 23  Hola buenos dias señor.   
+20210130125511 Finishing.
+20210130125618 Starting...
+20210130125618 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600
+20210130125618 Received from 127.0.0.1:6666: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="f76328c0ddcbd817e9340da548b234a5" 
+20210130125618 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 Authorization: Digest response="5f91c150de603d4876dfd093202ace8db2dd19a0317cfb0a0a72534aa37e5b3b9eee04ec1e08d9a70ddac170364078735447e4a1e7662c17b16c914dc3da5729"
+20210130125618 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210130125618 Finishing.
+20210130125646 Starting...
+20210130125646 Sent to 127.0.0.1:6666: SUBSCRIBE sip:Teodoro SIP/2.0
+20210130125646 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210130125646 Finishing.
+20210130130248 Starting...
+20210130130248 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 0
+20210130130248 Received from 127.0.0.1:6666: 
+20210130130248 Finishing.
+20210130130333 Starting...
+20210130130333 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600
+20210130130333 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210130130333 Finishing.
+20210130130412 Starting...
+20210130130412 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 0
+20210130130412 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210130130412 Finishing.
+20210130130417 Starting...
+20210130130417 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600
+20210130130417 Received from 127.0.0.1:6666: SIP/2.0 401 Unauthorized WWW Authenticate: Digest nonce="f76328c0ddcbd817e9340da548b234a5" 
+20210130130417 Sent to 127.0.0.1:6666: REGISTER sip:Teodoro:6002 SIP/2.0 Expires: 3600 Authorization: Digest response="5f91c150de603d4876dfd093202ace8db2dd19a0317cfb0a0a72534aa37e5b3b9eee04ec1e08d9a70ddac170364078735447e4a1e7662c17b16c914dc3da5729"
+20210130130417 Received from 127.0.0.1:6666: SIP/2.0 200 OK 
+20210130130417 Finishing.
